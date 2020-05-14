@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Zag_library</string>
+
+    <string-array name="faculty_names">
+        <item>Agriculture</item>
+        <item>Literature</item>
+        <item>Commerce</item>
+        <item>Education</item>
+        <item>Engineering</item>
+        <item>FCI</item>
+        <item>Mens Sporting Education</item>
+        <item>Females Sporting Education</item>
+        <item>Law</item>
+        <item>Medicin</item>
+        <item>Nursing</item>
+        <item>Pharmacy</item>
+        <item>Science</item>
+        <item>Specific Education</item>
+        <item>Technology and Development</item>
+        <item>Vet</item>
+    </string-array>
+
+    <string-array name="home_spinner_array">
+        <item>Select...</item>
+        <item>Book Name</item>
+        <item>Author</item>
+        <item>BiBID</item>
+    </string-array>
+
+
+    <string name="about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_in_particular_faculty">search in particular faculty</string>
+    <string name="or">OR</string>
+    <string name="home_search">Search</string>
+    <string name="home_search_by">Search By</string>
+    <string name="forget_password">Forget Password ?!</string>
+
+
+</resources>

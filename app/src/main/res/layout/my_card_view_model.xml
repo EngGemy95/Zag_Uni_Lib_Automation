@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="108dp"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    xmlns:card-view="http://schemas.android.com/apk/res-auto"
+    card-view:cardCornerRadius="20dp"
+    card-view:cardElevation="5dp"
+    android:padding="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/home_faculty_img"
+            android:src="@drawable/fci"
+
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_faculty_title"
+                android:text="Faculty Name"
+                android:textColor="#344f66"
+                android:gravity="center"
+                android:layout_below="@+id/home_faculty_img"
+                />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

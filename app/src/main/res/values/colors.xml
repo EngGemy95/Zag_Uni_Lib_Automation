@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005580</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#363638</color>
+    <color name="orange">#ff751a</color>
+    <color name="blue">#33adff</color>
+    <color name="green">#29a329</color>
+    <color name="gre">#5c5c8a</color>
+    <color name="gr"> #b67474</color>
+    <color name="brown"> #A67C29</color>
+    <color name="brow">#BA903D</color>
+    <color name="forget_password_color">#8e0303</color>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_ground"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.zu_libraries_automation.fayed.zag_uni_lib_automation.Register">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_ground"
+            tools:context="com.zu_libraries_automation.fayed.zag_uni_lib_automation.Register">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:paddingTop="40sp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="265dp"
+                    android:src="@drawable/register"
+                    android:id="@+id/imageView2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/username"
+                    android:layout_marginTop="30sp"
+                    android:layout_below="@+id/toolbar"
+                    android:layout_centerHorizontal="true"
+                    android:ems="10"
+                    android:hint="user name"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4e4c4c" />
+
+                <EditText
+                    android:id="@+id/eAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/username"
+                    android:layout_centerHorizontal="true"
+                    android:ems="10"
+                    android:hint="E-Mail"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4e4c4c" />
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eAddress"
+                    android:layout_centerHorizontal="true"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingTop="20dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4e4c4c" />
+
+                <EditText
+                    android:id="@+id/rePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/pass"
+                    android:layout_alignStart="@+id/pass"
+                    android:layout_below="@+id/pass"
+                    android:ems="10"
+                    android:hint="Rewrite Password"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4e4c4c" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rePassword"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/sign_shape"
+                    android:ems="8"
+                    android:onClick="register"
+                    android:text="Register"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>
